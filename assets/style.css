@@ -1,0 +1,21 @@
+:root{--bg:#F2F0F5;--ink:#1F1A2E;--muted:#6B6478;--hesperidee:#D9B63C;--florale:#C9708A;--boisee:#7A5A3C;--orientale:#B8692B}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.7 "Iowan Old Style",Georgia,serif}
+header,main,footer{max-width:42rem;margin:0 auto;padding:1rem 1.25rem}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:.5rem;padding-top:2rem}
+.logo{font-size:1.4rem;font-weight:700;text-decoration:none;color:var(--ink)}
+nav a{margin-left:1.25rem;color:var(--muted);text-decoration:none}
+a{color:var(--ink)}
+a:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+h1{font-size:2rem;line-height:1.2;margin:1.5rem 0 1rem}
+.meta{color:var(--muted);font-size:.9rem}
+.posts{list-style:none;padding:0}
+.posts li,article{border-left:6px solid var(--muted);padding-left:1rem;margin:1.5rem 0}
+.posts a{font-size:1.2rem;font-weight:700}
+.posts p{margin:.2rem 0 0;color:var(--muted)}
+.fam-hesperidee{border-color:var(--hesperidee)!important}
+.fam-florale{border-color:var(--florale)!important}
+.fam-boisee{border-color:var(--boisee)!important}
+.fam-orientale{border-color:var(--orientale)!important}
+.more h2{font-size:1.2rem}
+footer{color:var(--muted);font-size:.9rem;padding-bottom:2rem}

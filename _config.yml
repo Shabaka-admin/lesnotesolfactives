@@ -1,0 +1,8 @@
+title: Le Guide des Notes
+description: Comprendre les notes et les familles olfactives, des agrumes à l'oud.
+url: "https://lesnotesolfactives.com"
+lang: fr
+permalink: /:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
